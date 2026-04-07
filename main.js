@@ -43,7 +43,7 @@
 // let h2 = +prompt('2-vahtni kiriting (oldingi kiritganingizdan kichik bolsin!)')
 // let s = h*60*60;
 // let s2 =h2*60*60;
-// let sa=s-s2
+// let sa=s2-s
 // console.log(sa);
 
 //===================================================================================================================
