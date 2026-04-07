@@ -80,3 +80,6 @@
 // "yes" yoki "no" chiqaring
 // ======================================================================
 
+let n = +prompt('son kiriting')
+
+console.log((n/3 && 'no')|| 'yes');
