@@ -8,7 +8,7 @@
 //===========================================================================================================================
 
 // MASALA: Vaqtlar oralig‘i
-// 📌 Masala sharti
+//  Masala sharti
 
 // Bir sutka ichida berilgan ikkita vaqt mavjud.
 
@@ -19,24 +19,24 @@
 // M — minut (0 ≤ M ≤ 59)
 // S — sekund (0 ≤ S ≤ 59)
 
-// 👉 Sizdan talab qilinadi:
+//  Sizdan talab qilinadi:
 // Ikki vaqt orasidagi farqni sekundlarda toping.
 
-// ⚠️ Muhim:
+//  Muhim:
 
 // Ikkinchi vaqt birinchidan oldin kelmaydi
 // Ya’ni: t2 ≥ t1
 
-// 🎯 Maqsad
+//  Maqsad
 
-// 👉 Natijada bitta son chiqishi kerak — bu ikki vaqt orasidagi sekundlar soni
+//  Natijada bitta son chiqishi kerak — bu ikki vaqt orasidagi sekundlar soni
 
-// 🧠 Yechim g‘oyasi (eng sodda usul)
+//  Yechim g‘oyasi (eng sodda usul)
 
-// Vaqtni to‘g‘ridan-to‘g‘ri ayirish qiyin ❌
+// Vaqtni to‘g‘ridan-to‘g‘ri ayirish qiyin 
 // Shuning uchun biz:
 
-// ✅ Har bir vaqtni sekundga aylantiramiz
+// Har bir vaqtni sekundga aylantiramiz
 // =============================================================
 
 // let h = +prompt('vahtni kiriting (0dan 24gacha bolgan sonni kiriting!)')
@@ -81,5 +81,4 @@
 // ======================================================================
 
 let n = +prompt('son kiriting')
-
 console.log((n/3 && 'no')|| 'yes');
